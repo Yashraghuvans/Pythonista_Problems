@@ -21,3 +21,5 @@ class Solution(object):
                         j+=1
         return res
         
+result = solution.threeSum(nums)
+print(result)
