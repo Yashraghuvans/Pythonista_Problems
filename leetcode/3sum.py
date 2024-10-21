@@ -21,5 +21,8 @@ class Solution(object):
                         j+=1
         return res
         
-result = solution.threeSum(nums)
-print(result)
+if __name__ == "__main__":
+    nums = [-1, 0, 1, 2, -1, -4] 
+    solution = Solution()
+    result = solution.threeSum(nums)
+    print(result)
